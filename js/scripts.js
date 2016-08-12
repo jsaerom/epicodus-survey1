@@ -7,7 +7,6 @@ $(document).ready(function(){
     $("#introPage").show('slide');
     event.preventDefault();
   });
-
   $("#epicodusForm").submit(function(){
     var experience = $("#experience").val();
     var passion = $("input:radio[name=enjoy]:checked").val();
@@ -25,11 +24,5 @@ $(document).ready(function(){
       window.open("java.html");
     }
   });
-
 // This is the end tag for ready function
-// });
-
-
-
-
 });
