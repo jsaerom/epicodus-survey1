@@ -67,3 +67,10 @@ a:hover{
   text-decoration: none;
   font-style: italic;
 }
+.trackNav{
+  position:fixed;
+  bottom: 0px;
+}
+#dontPage{
+  margin-top: 60px;
+}
