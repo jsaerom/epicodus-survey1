@@ -71,15 +71,15 @@
     text-decoration: none;
     font-style: italic;
   }
-  .trackNav{
-    position:fixed;
-    bottom: 0px;
-  }
   #dontPage{
     margin-top: 60px;
   }
-
-  img{
-    max-height: 50%;
-  }
+h2.companyTitle, h2.careerTitle{
+  font-size: 1em;
+}
+.smallText{
+  font-family: 'News Cycle', sans-serif;
+}
+.careerOptions, .companyOptions{
+  display: none;
 }

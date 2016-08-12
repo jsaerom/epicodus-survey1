@@ -4,7 +4,7 @@ $(document).ready(function(){
     var name = $("input#name").val();
     $("#welcomePage").hide();
     $(".userName").text(name);
-    $("#introPage").show('slide');
+    $("#introPage").show('slow');
     event.preventDefault();
   });
   $("#epicodusForm").submit(function(){
@@ -23,6 +23,12 @@ $(document).ready(function(){
     } else {
       window.open("java.html");
     }
+  });
+  $(".companyTitle .smallText").click(function(){
+    $(".companyOptions").toggle();
+  });
+  $(".careerTitle .smallText").click(function(){
+    $(".careerOptions").toggle();
   });
 // This is the end tag for ready function
 });
