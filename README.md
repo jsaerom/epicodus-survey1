@@ -8,11 +8,11 @@
 This is a survey that will help students decide which track to take at Epicodus. It uses 4 questions that will help determine if students should take CSS, Ruby, or Java.
 
 ##Installation Requirements
-1. Go to [My GitHub](https://github.com/jsaerom/epicodus-survey)
+1. Go to [My GitHub](https://github.com/jsaerom/epicodus-survey1)
 2. Click **Clone or download** and choose either the Open in Desktop option or Download ZIP option
 Alternately
 1. Open Terminal
-2. Command $git clone https://github.com/jsaerom/epicodus-survey
+2. Command $git clone https://github.com/jsaerom/epicodus-survey1
 
 To view the website, click [here] (https://jsaerom.github.io/epicodus-survey1/)
 
