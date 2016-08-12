@@ -1,76 +1,78 @@
-body{
-  font-family: 'News Cycle', sans-serif;
-}
-h1, h2 {
-  font-family: 'Gravitas One', cursive;
-}
-h1, h3{
-  text-align: center;
-}
-h1{
-  font-size: 2.75em;
-}
-h2{
-  font-size: 1.5em;
-}
-h3{
-  font-size: 1.5em;
-}
-p{
-  font-size: 1.25em;
-}
-#introPage h1, #introPage h3 {
-  text-align: right;
-}
-#introPage h1{
-  font-size: 6em;
-  font-weight: bolder;
-}
-#welcomePage{
-  margin: 15%;
-}
-#welcomePage h1{
-  font-size: 10em;
-}
-#name {
-  width: 50%;
-  margin-left: 20%;
-}
-.fix-label {
-  display: block;
-  text-align: center;
-}
-#nameForm button {
-  margin-right: 30%;
-}
-#introPage{
-  margin-top: 40%;
-}
-.jumbotron{
-  margin-top: 20px;
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-}
-#passion legend, #frontBack legend, #size legend, #project legend{
-  color: white;
-}
-#experienceQ{
-  margin-bottom: 15px;
-}
-a{
-  color: gray;
-  font-weight: 900;
-}
-a:hover{
-  color: black;
-  text-decoration: none;
-  font-style: italic;
-}
-.trackNav{
-  position:fixed;
-  bottom: 0px;
-}
-#dontPage{
-  margin-top: 60px;
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px){
+  body{
+    font-family: 'News Cycle', sans-serif;
+  }
+  h1, h2 {
+    font-family: 'Gravitas One', cursive;
+  }
+  h1, h3{
+    text-align: center;
+  }
+  h1{
+    font-size: 2.75em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  h3{
+    font-size: 1.5em;
+  }
+  p{
+    font-size: 1.25em;
+  }
+  #introPage h1, #introPage h3 {
+    text-align: right;
+  }
+  #introPage h1{
+    font-size: 6em;
+    font-weight: bolder;
+  }
+  #welcomePage{
+    margin: 15%;
+  }
+  #welcomePage h1{
+    font-size: 10em;
+  }
+  #name {
+    width: 50%;
+    margin-left: 20%;
+  }
+  .fix-label {
+    display: block;
+    text-align: center;
+  }
+  #nameForm button {
+    margin-right: 30%;
+  }
+  #introPage{
+    margin-top: 40%;
+  }
+  .jumbotron{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+  #passion legend, #frontBack legend, #size legend, #project legend{
+    color: white;
+  }
+  #experienceQ{
+    margin-bottom: 15px;
+  }
+  a{
+    color: gray;
+    font-weight: 900;
+  }
+  a:hover{
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+  }
+  .trackNav{
+    position:fixed;
+    bottom: 0px;
+  }
+  #dontPage{
+    margin-top: 60px;
+  }
 }
