@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen and (device-height: 768px)">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
     <link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen and (device-height: 800px)">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <title></title>
   </head>
-  <body id="welcomePage">
+  <body>
     <div class="container">
-      <h1>Welcome!</h1>
-      <form id="nameForm">
-        <div class="form-group">
-          <label for="name" class="fix-label">Please enter your name:</label>
-          <input id="name" class="form-control" type="text">
+      <div id="welcomePage">
+        <h1>Welcome!</h1>
+        <form id="nameForm" method="GET">
+          <div class="form-group">
+            <label for="name" class="fix-label">Please enter your name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-default pull-right" name="submitName">Continue</button>
+        </form>
+      </div>
+
+
+
+      <div id="introPage">
+        <div class="bottom-right slideText">
+          <h1>Hi, <span class="userName"></span>!</h1>
+          <h3>Struggling to figure out which Epicodus track to take? Take <a href="form.html">this survey</a> to find out!</h3>
         </div>
-        <button type="submit" class="btn btn-default pull-right" name="submitName">Continue</button>
-      </form>
-
-
-
-
+      </div>
 
 
 

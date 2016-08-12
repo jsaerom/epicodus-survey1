@@ -1,10 +1,11 @@
 $(document).ready(function(){
 // Do not mess with anything above this
-  $("#nameForm").submit(function(){
+  $("#nameForm").submit(function(event){
     var name = $("input#name").val();
-
-    window.open("intro.html");
-
+    $("#welcomePage").hide();
+    $(".userName").text(name);
+    $("#introPage").show('slide');
+    event.preventDefault();
   });
 
   $("#epicodusForm").submit(function(){
