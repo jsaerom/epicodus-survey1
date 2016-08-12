@@ -14,7 +14,7 @@ Alternately
 1. Open Terminal
 2. Command $git clone https://github.com/jsaerom/epicodus-survey
 
-Link to website
+To view the website, click [here] (https://jsaerom.github.io/epicodus-survey1/)
 
 ##Contact Details
 If you have any questions or concerns, contact me at 123-456-7892
