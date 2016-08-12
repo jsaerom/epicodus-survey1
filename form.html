@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What Epicodus Track Should You Take?</h1>
+      <form>
+        <!-- Question one -->
+        <div>
+          <label for="experience">How many years of experience do you have in coding?</label>
+          <select class="form-control" id="experience">
+            <option>Less than 1 year</option>
+            <option>1-2 years</option>
+            <option>2-3 years</option>
+            <option>3-4 years</option>
+            <option>5+ years</option>
+          </select>
+        </div>
+        <!-- Question two -->
+        <fieldset id="passion" class="form-group">
+          <legend>Do you enjoy coding?</legend>
+          <div class="radio">
+            <label>
+              <input type="radio" name="enjoy" id="passionYes" value="Yes" checked>Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="enjoy" id="passionNo" value="No">No
+            </label>
+          </div>
+        </fieldset>
+        <!-- Question three -->
+        <fieldset id="frontBack" class="form-group">
+          <legend>Are you more interested in front-end development or back-end development?</legend>
+          <div class="radio">
+            <label>
+              <input type="radio" name="devType" id="front" value="Front" checked>Front-End Development
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="devType" id="back" value="Back">Back-End Development
+            </label>
+          </div>
+        </fieldset>
+        <!-- Question four -->
+        <fieldset id="size" class="form-group">
+          <legend>Would you prefer to work for a startup or bigger enterprises?</legend>
+          <div class="radio">
+            <label>
+              <input type="radio" name="companySize" id="sizeBig" value="Big Corporate" checked>Bigger Enterprises
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="companySize" id="sizeSmall" value="Startups">Startups
+            </label>
+          </div>
+        </fieldset>
+        <!-- Question five -->
+        <fieldset id="project" class="form-group">
+          <legend>Would you like to primarily develop websites or would you like to develop other applications and programs?</legend>
+          <div class="radio">
+            <label>
+              <input type="radio" name="projectType" id="web" value="Web" checked>Primarily web application
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="projectType" id="otherapp" value="Other">Other applications (e.g. app development)
+            </label>
+          </div>
+        </fieldset>
+
+        <button type="submit" name="submitSurvey" class="btn btn-default">Get your results!</button>
+      </form>
+    </div>
+  </body>
+</html>
